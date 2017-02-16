@@ -1,0 +1,16 @@
+{
+  "name": "artsafin/tntest",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "TnTest\\": "src/"
+    }
+  },
+  "require": {
+    "moneyphp/money": "^3.0",
+    "doctrine/dbal": "^2.5",
+    "slim/slim": "^3.7",
+    "symfony/validator": "^3.2"
+  }
+}
